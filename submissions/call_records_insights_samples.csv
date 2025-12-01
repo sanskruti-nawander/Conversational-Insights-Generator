@@ -1,0 +1,89 @@
+"id","transcript","intent","sentiment","action_required","summary","created_at"
+1,"Agent: Hello, customer: I want to make a payment next week.","make a payment next week","Neutral",False,"Customer states their intent to make a payment next week.","2025-12-01 12:17:55.994591+05:30"
+2,"Agent: Hello. Customer: I will pay next week.","The customer will pay next week.","Neutral",False,"Customer promises to pay next week.","2025-12-01 12:31:30.59821+05:30"
+3,"Agent: Hello. Customer: I will pay next week.","Wants to pay next week","Neutral",True,"Customer will pay next week, follow-up required.","2025-12-01 12:33:06.041979+05:30"
+4,"Agent: Namaste. Main Priyanka, City Bank credit card department se. Aapka minimum due ₹8,500 hai, jo 10th ko due ho raha hai.
+Customer: Ji, pata hai. I think main poora amount nahi de paunga, but minimum toh kar dunga.
+Agent: Sir, poora payment karna best hai, par minimum due must hai to avoid late fees. Koi issue toh nahi hai payment mein?
+Customer: Nahi, no issue. I’ll clear it by the 8th.
+Agent: Great! Thank you for the confirmation.","Customer will pay the minimum due amount.","Neutral",False,"Customer confirms they will pay the minimum due by the 8th of the month.","2025-12-01 12:42:10.805186+05:30"
+5,"Agent: Good afternoon, Ms. Jain. Aapke credit card ka minimum due 15 din se pending hai.
+Customer: Oh, I forgot completely. Office mein kaam zyada tha.
+Agent: Ma'am, aapka total outstanding ab ₹45,000 ho gaya hai, including late fees. Aap aaj hi ₹8,500 ka minimum payment kar dijiye.
+Customer: Aaj toh nahi ho payega. Sunday ko final karungi.
+Agent: Sunday is fine, ma’am, but late fees already apply ho chuki hain. Please make sure payment ho jaye.","Customer plans to pay the minimum due on Sunday.","Neutral",True,"The customer acknowledges the pending payment and plans to pay on Sunday. The agent informs the customer about the late fees and requests payment.","2025-12-01 12:42:12.624578+05:30"
+6,"Agent: Mr. Reddy, main Legal Department se baat kar raha hoon. Aapka loan 60 days se default mein hai.
+Humari team aapki location par visit karne ki planning kar rahi hai.
+Customer: Please, visit mat bhejo. Meri job chali gayi hai. I need time!
+Agent: Sir, time humne bahut diya hai. Aap kitna amount abhi immediately de sakte hain?
+Customer: Abhi main sirf ₹10,000 de sakta hoon. Baaki next month.
+Agent: Okay, ₹10,000 ka token payment kar dijiye. Hum aapki file temporary hold par rakhenge.","Customer wants to make a partial payment and needs more time.","Negative",False,"Customer agreed to pay ₹10,000 as a token payment. The agent will put the file on hold.","2025-12-01 12:42:14.557352+05:30"
+7,"Agent: Ma'am, aapka account write-off hone ki verge par hai. 90 days ho gaye hain. Aapka total due ₹1.5 lakh hai.
+Customer: Main itna paisa nahi de sakti. Please settlement option do.
+Agent: Settlement ke liye aapko pehle minimum 30% upfront dena hoga. Kya aap eligible hain?
+Customer: Mujhe details mail kar do. Main check karti hoon.
+Agent: Main aapko final warning de raha hoon. Agar aapne action nahi liya toh legal notice jayega.","Requesting a settlement option and details.","Negative",True,"Customer is unable to pay the full amount and requests a settlement option. Agent warns of legal action if no action is taken.","2025-12-01 12:42:15.697331+05:30"
+8,"Agent: Hello, Mr. Kumar. 60 days outstanding hai. What is the payment plan?
+Customer: Maine aapko pehle hi bataya tha, ek transaction fraud tha. Jab tak woh resolve nahi hoga, main payment nahi karunga.
+Agent: Sir, dispute department separate hai. Aapka due amount legal hai. You must pay the undisputed amount first.
+Customer: No, pehle dispute resolve karo!
+Agent: Sir, both processes parallel run karte hain. Please minimum due aaj pay kar dijiye.","Customer refuses to pay due to a transaction dispute and demands its resolution.","Negative",True,"Customer is disputing a transaction and refuses to pay until it's resolved. Agent insists on partial payment.","2025-12-01 12:42:17.746347+05:30"
+9,"Agent: Ms. Pooja, hum aapko 75 days se call kar rahe hain. Aap cooperate nahi kar rahe.
+Customer: Meri mother hospital mein hain. Serious financial hardship hai. I am requesting a restructuring of the loan.
+Agent: Ma’am, we understand the situation. Lekin restructuring ke liye aapko hardship application fill karni hogi
+aur last 3 months ka bank statement dena hoga.
+Customer: Okay, send me the form.
+Agent: Thank you, ma’am. Please complete the process quickly, warna account recovery stage par chala jayega.","Request restructuring of the loan.","Negative",True,"Customer requests loan restructuring due to financial hardship. Agent asks for hardship application and bank statements.","2025-12-01 12:42:18.858282+05:30"
+10,"Agent: Hello, main Maya bol rahi hoon, Apex Finance se. Kya main Mr. Sharma se baat kar sakti hoon?
+Customer: Haan, main bol raha hoon. Kya hua?
+Agent: Sir, aapka personal loan ka EMI due date 3rd of next month hai. Just calling for a friendly reminder. Aapka payment ready hai na?
+Customer: Oh okay. Haan, salary aa jayegi tab tak, I will definitely pay it on time. Don’t worry.
+Agent: Thank you, sir. Payment time pe ho jaye to aapka credit score bhi maintain rahega. Have a good day!","Customer confirms they will pay the EMI on time.","Positive",False,"The customer confirmed they will pay the loan EMI by the due date.","2025-12-01 12:44:58.021635+05:30"
+11,"Agent: Namaste. Main Priyanka, City Bank credit card department se. Aapka minimum due ₹8,500 hai, jo 10th ko due ho raha hai.
+Customer: Ji, pata hai. I think main poora amount nahi de paunga, but minimum toh kar dunga.
+Agent: Sir, poora payment karna best hai, par minimum due must hai to avoid late fees. Koi issue toh nahi hai payment mein?
+Customer: Nahi, no issue. I’ll clear it by the 8th.
+Agent: Great! Thank you for the confirmation.","Customer confirms they will pay the minimum due amount.","Positive",False,"Customer agreed to pay the minimum due amount by the 8th of the month.","2025-12-01 12:44:59.211724+05:30"
+12,"Agent: Hello Mr. Verma, main Aman bol raha hoon. Aapka personal loan EMI 7 days se overdue hai. Aapne payment kyun nahi kiya?
+Customer: Dekhiye, thoda emergency aa gaya tha. Mera bonus expected hai next week.
+Agent: Sir, aapko pata hai ki is par penalty lag rahi hai. Aap exact date batayiye, kab tak confirm payment ho jayega?
+Customer: Wednesday ko pakka kar dunga. Promise to Pay le lo Wednesday ka.
+Agent: Okay, main aapka PTP book kar raha hoon next Wednesday ke liye. Please ensure payment is done to stop further charges.","Customer promises to make the payment on Wednesday.","Neutral",False,"The customer requested a promise to pay for Wednesday and the agent agreed to book the PTP.","2025-12-01 12:45:00.448142+05:30"
+13,"Agent: Good afternoon, Ms. Jain. Aapke credit card ka minimum due 15 din se pending hai.
+Customer: Oh, I forgot completely. Office mein kaam zyada tha.
+Agent: Ma'am, aapka total outstanding ab ₹45,000 ho gaya hai, including late fees. Aap aaj hi ₹8,500 ka minimum payment kar dijiye.
+Customer: Aaj toh nahi ho payega. Sunday ko final karungi.
+Agent: Sunday is fine, ma’am, but late fees already apply ho chuki hain. Please make sure payment ho jaye.","Pay the dues on Sunday","Neutral",True,"Customer promises to pay the minimum due amount on Sunday, while the agent reminds them about the late fees.","2025-12-01 12:45:02.25912+05:30"
+14,"Agent: Mr. Khan, aapka loan account NPA hone ke risk par hai. 25 days ho gaye hain. Ye serious matter hai.
+Customer: Main out of station hoon, server issue hai mere bank mein.
+Agent: Sir, aap online transfer kar sakte hain, ya phir family member se karwa dijiye. Account status kharab ho raha hai.
+Customer: Thik hai, thik hai. Main next 3 hours mein try karta hoon.
+Agent: Sir, try nahi, I need a guarantee. Kya main 3 hours mein confirmation call karun?
+Customer: Haan, call kar lo.","Customer plans to transfer the amount in next 3 hours.","Neutral",True,"The customer agrees to transfer the due amount in 3 hours, and the agent wants a confirmation call.","2025-12-01 12:45:03.464085+05:30"
+15,"Agent: Mr. Reddy, main Legal Department se baat kar raha hoon. Aapka loan 60 days se default mein hai.
+Humari team aapki location par visit karne ki planning kar rahi hai.
+Customer: Please, visit mat bhejo. Meri job chali gayi hai. I need time!
+Agent: Sir, time humne bahut diya hai. Aap kitna amount abhi immediately de sakte hain?
+Customer: Abhi main sirf ₹10,000 de sakta hoon. Baaki next month.
+Agent: Okay, ₹10,000 ka token payment kar dijiye. Hum aapki file temporary hold par rakhenge.","Request for time to pay the debt due to job loss, and offers a partial payment.","Negative",True,"Customer requests for time due to job loss and agrees to pay a partial amount. Agent agrees to a token payment and temporarily holds the file.","2025-12-01 12:45:04.673419+05:30"
+16,"Agent: Ma'am, aapka account write-off hone ki verge par hai. 90 days ho gaye hain. Aapka total due ₹1.5 lakh hai.
+Customer: Main itna paisa nahi de sakti. Please settlement option do.
+Agent: Settlement ke liye aapko pehle minimum 30% upfront dena hoga. Kya aap eligible hain?
+Customer: Mujhe details mail kar do. Main check karti hoon.
+Agent: Main aapko final warning de raha hoon. Agar aapne action nahi liya toh legal notice jayega.","Requesting a settlement option and details.","Negative",True,"Customer is unable to pay the full amount and seeks a settlement option. Agent warns of legal action if no action is taken.","2025-12-01 12:45:06.364416+05:30"
+17,"Agent: Mr. Singh, aapka case external agency ko assign ho chuka hai. Hum final discussion ke liye call kar rahe hain. Aapki property par charge hai.
+Customer: No, no, personal loan par koi charge nahi hai. Stop threatening!
+Agent: Sir, as per the loan agreement, hum action le sakte hain. Aap aaj ₹25,000 transfer kijiye for account regularization.
+Customer: I’ll talk to my lawyer.
+Agent: That’s your right, sir, but payment is mandatory.","Talk to lawyer to avoid payment.","Negative",True,"Customer disputes the charge and will consult with a lawyer. Agent insists on payment.","2025-12-01 12:45:07.548078+05:30"
+18,"Agent: Hello, Mr. Kumar. 60 days outstanding hai. What is the payment plan?
+Customer: Maine aapko pehle hi bataya tha, ek transaction fraud tha. Jab tak woh resolve nahi hoga, main payment nahi karunga.
+Agent: Sir, dispute department separate hai. Aapka due amount legal hai. You must pay the undisputed amount first.
+Customer: No, pehle dispute resolve karo!
+Agent: Sir, both processes parallel run karte hain. Please minimum due aaj pay kar dijiye.","Customer refuses to pay until a transaction dispute is resolved.","Negative",True,"Customer is disputing a transaction and refuses to pay the outstanding balance until the issue is resolved. Agent insists on partial payment.","2025-12-01 12:45:08.963084+05:30"
+19,"Agent: Ms. Pooja, hum aapko 75 days se call kar rahe hain. Aap cooperate nahi kar rahe.
+Customer: Meri mother hospital mein hain. Serious financial hardship hai. I am requesting a restructuring of the loan.
+Agent: Ma’am, we understand the situation. Lekin restructuring ke liye aapko hardship application fill karni hogi
+aur last 3 months ka bank statement dena hoga.
+Customer: Okay, send me the form.
+Agent: Thank you, ma’am. Please complete the process quickly, warna account recovery stage par chala jayega.","Requesting loan restructuring due to financial hardship.","Negative",True,"Customer requests loan restructuring due to financial hardship. Agent asks for hardship application and bank statements.","2025-12-01 12:45:10.179524+05:30"

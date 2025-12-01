@@ -1,3 +1,42 @@
-venv
-.env
+# Python cache
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Environment / secret files
+.env
+.env.*
+*.env
+
+# IDE / editor junk
+.vscode/
+.idea/
+*.iml
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MyPy / type-checking
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Optional: build artifacts
+dist/
+build/
+*.egg-info/
