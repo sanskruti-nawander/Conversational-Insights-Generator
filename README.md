@@ -122,7 +122,11 @@ contains insights extracted from all 10 Hinglish call transcripts provided in th
 ## 🎥 YouTube Video Demonstration
 
 **Video Link:**  
-➡️ [https://youtu.be/hHcEZNZIDHA](https://youtu.be/hHcEZNZIDHA)
+➡️ PART 1: [https://youtu.be/hHcEZNZIDHA](https://youtu.be/hHcEZNZIDHA)
+
+    PART 2: [https://youtu.be/MaCnTgRI6KA](https://youtu.be/MaCnTgRI6KA)
+
+
 
 
 ### 📘 Final Project Report 
